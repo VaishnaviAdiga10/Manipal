@@ -1,0 +1,60 @@
+
+
+Set 1:
+
+ 
+
+1. Check whether the contents of two lists are same.
+
+2. Find the union of two single linked lists.
+
+Example list 1 = { 5,10,20,50,10 } list2 = { 15, 10, 25, 8, 30 }  resultant list after union operation  is list3 = { 5, 10, 20, 50, 15, 25, 8,30 }
+
+3. Find the intersection of two single lists.
+
+4. reverse the contents single linked list Eg: original list = { 5,10,20,30,40} reversed list = { 40,30,20,10,5}
+
+5. remove any duplicate elements from list. initial list = { 20, 5,20, 30 5,40 } unique list = { 20,5,30,40}
+
+ 
+
+1.  use stack to check the balancing of brackets.
+
+2. Evaluate postfix expression using stack.  Example: postfix fix expression is 6 5 2 3 + 8 * + 3 + *
+
+Hint: When number is seen, it is pushed onto the stack; when an operator is seen, the operator is applied to the two numbers that are popped from the stack, and the result is pushed onto the stack.
+
+1. Design a queue to which stores process details like process id, arrival time, execution time and priority. Determine the turn around time and waiting time for each jobs for following scheduling algorithms
+
+                (i) First Come First Serve
+
+                (ii) Shortest Job First
+
+                (iii) Shortest Job First with preemption
+
+                (iv) Round robin (assume suitable time slice)
+
+                (v) Priority based algorithm with preemption
+
+ 
+
+ 
+
+SET 2
+
+ 
+
+1.     Develop online shopping cart system. User should be able to add item into cart. Provide item name, price and quantity of item are provided with each addition to cart. User can make any number of additions into cart. When user chooses pay, total bill amount and total number of different items purchased to be checked.
+
+2.     Modify the Q1 such that user can change the quantity of item of put into cart by specifying item name. User can also delete item from cart.
+
+3.     Modify Q2 such that user should get the bill sorted according to item name (sort items based on first character of items).
+
+4.     Modify Q3 by providing an administrator functionality, which is capable of listing total number of each items sold and their prices.
+
+5.     Modify Q4 which helps administrator to figure out which is the fast moving item at any given time.
+
+6.     An airport is developing a computer simulation of air-traffic control that handles events such as landings and takeoffs. Each event has a time stamp that denotes the time when the event will occur with additional information like, plane number, takeoff or landing. The simulation program needs to efficiently perform the following two fundamental operations: 1. Insert an event with a given time stamp, aircraft number, takeoff / landing (add a future event).  2. Extract the event with smallest time stamp (that is, determine the next event to process). Design and implement suitable data structures that work efficiently in terms of time.
+
+ 
+
